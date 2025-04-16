@@ -1,4 +1,9 @@
-# ModuleLLM_OpenAI_API_example_250417
+# ModuleLLM_OpenAI_API_example
+
+## 概要
+
+ModuleLLM_OpenAI_APIがリリースされたのでお試し。
+https://github.com/m5stack/ModuleLLM-OpenAI-Plugin
 
 ## 環境
 
@@ -7,9 +12,7 @@
 ( M5_LLM_ubuntu22.04_20250328_AX630C_LITE.axpより古いバージョンではemmcエラーが発生する。)
 
 
-## ModuleLLM-OpenAI-Plugin
 
-https://github.com/m5stack/ModuleLLM-OpenAI-Plugin
 
 
 ## Install
