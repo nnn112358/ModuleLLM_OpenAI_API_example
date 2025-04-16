@@ -36,6 +36,6 @@ root@m5stack-kit:~# python3 api_server.py
 root@m5stack-kit:~# python vlm_send.py
 ```
 
-![image](https://github.com/user-attachments/assets/a3810700-e0a7-4bbf-9535-3a378201f35b)
+![image](https://github.com/user-attachments/assets/cbe15164-94d4-4c54-b8c6-0f897712f6ec)
 
 https://x.com/nnn112358/status/1912625283339022735
