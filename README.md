@@ -40,6 +40,19 @@ root@m5stack-kit:~# python3 api_server.py
 ```
 
 ## bash
+### LLM example
+
+```
+curl -X POST "http://localhost:8000/v1/chat/completions" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer YOUR_KEY" \
+-d '{
+  "model": "qwen2.5-0.5B-p256-ax630c",
+  "messages": [{"role": "user", "content": "Hello!"}],
+  "temperature": 0.7
+}'
+```
+
 
 ### VLM example
 ```
