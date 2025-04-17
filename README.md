@@ -41,7 +41,7 @@ root@m5stack-kit:~# python3 api_server.py
 
 ## bash
 
-
+### VLM example
 ```
 curl -X POST "http://localhost:8000/v1/chat/completions" \
   -H "Content-Type: application/json" \
