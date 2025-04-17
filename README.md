@@ -2,8 +2,10 @@
 
 ## 概要
 
-ModuleLLM_OpenAI_APIがリリースされたのでお試し。
-https://github.com/m5stack/ModuleLLM-OpenAI-Plugin
+ModuleLLM_OpenAI_APIがリリースされたのでお試し。<br>
+
+https://github.com/m5stack/ModuleLLM-OpenAI-Plugin<br>
+https://docs.m5stack.com/ja/guide/llm/llm630_compute_kit/stackflow<br>
 
 ## 環境
 
