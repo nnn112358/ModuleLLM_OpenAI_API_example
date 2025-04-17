@@ -41,7 +41,7 @@ root@m5stack-kit:~# python3 api_server.py
 
 
 
-## Start
+## Python
 
 Ubuntu-PCでの作業。 LLM630 Compute KITでもよい。IPアドレスは書き換えてください。
 ```
