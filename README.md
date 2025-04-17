@@ -39,7 +39,35 @@ root@m5stack-kit:~# apt install llm-model-internvl2.5-1b-ax630c
 root@m5stack-kit:~# python3 api_server.py 
 ```
 
+## bash
 
+
+```
+curl -X POST "http://localhost:8000/v1/chat/completions" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_KEY" \
+  -d '{
+    "model": "internvl2.5-1B-ax630c",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "この画像に何が見えますか？"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "data:image/jpeg;base64,'$(base64 -w 0 test.jpg)'"
+            }
+          }
+        ]
+      }
+    ],
+    "temperature": 0.2
+  }'
+```
 
 ## Python
 
