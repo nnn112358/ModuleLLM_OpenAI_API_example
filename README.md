@@ -48,7 +48,7 @@ curl -X POST "http://localhost:8000/v1/chat/completions" \
 -H "Authorization: Bearer YOUR_KEY" \
 -d '{
   "model": "qwen2.5-0.5B-p256-ax630c",
-  "messages": [{"role": "user", "content": "Hello!"}],
+  "messages": [{"role": "user", "content": "あなたの名前をおしえて!"}],
   "temperature": 0.7
 }'
 ```
