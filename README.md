@@ -25,6 +25,13 @@ root@m5stack-kit:~# cd ModuleLLM-OpenAI-Plugin
 root@m5stack-kit:~# pip install -r requirements.txt 
 ```
 
+```
+root@m5stack-kit:~# apt install llm-model-qwen2.5-0.5b-p256-ax630c
+root@m5stack-kit:~# apt install llm-model-internvl2.5-1b-ax630c
+```
+
+
+
 ## Start
  LLM630 Compute KITでの作業
  LLM630 Compute KITにて、OpenAI互換APIサーバを起動する
